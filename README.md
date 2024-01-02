@@ -13,3 +13,6 @@ pip install pynput pyinstaller winshell freeze pystray pywin32
 
 
 pyinstaller --onefile --noconsole --hidden-import=win32con .\autolockdesk.py
+
+
+#由于windows11 windows10 的windows安全中心会误杀此脚本 粗暴的就关闭它
