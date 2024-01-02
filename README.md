@@ -3,9 +3,13 @@
 
 
 #安装需要的包
+
+
 pip install pynput pyinstaller winshell freeze pystray pywin32
 
 
 
 #编译成exe文件
+
+
 pyinstaller --onefile --noconsole --hidden-import=win32con .\autolockdesk.py
